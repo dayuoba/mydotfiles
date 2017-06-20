@@ -1,0 +1,83 @@
+{
+    "workbench.colorTheme": "Boxy Tomorrow",
+    "update.channel": "none",
+    "workbench.editor.enablePreview": false,
+    "vim.disableAnnoyingNeovimMessage": true,
+    "vim.easymotion": true,
+    "workbench.statusBar.visible": true,
+    "editor.fontFamily": "'m+ 1m medium',''",
+    "workbench.activityBar.visible": false,
+    "vim.useSystemClipboard": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j","j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": [":"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.showCommands",
+                    "args": []
+                }
+            ]
+        }
+    ],
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>","d"],
+            "after": ["d", "d"]
+        },
+        {
+            "before":["<C-n>"],
+            "after":[],
+            "commands": [
+                {
+                    "command": ":nohl"
+                }
+            ]
+        }
+    ],
+    "vim.leader": ",",
+    "vim.hlsearch": true,
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-w>": false,
+        "<C-n>": false,
+        "<C-t>": false,
+        "<C-[>": false,
+        "<C-b>": false,
+        "<C-f>": false
+    },
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before":["<C-e>"],
+            "after":[],
+            "commands": [
+                {
+                    "command": ":nohl",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "w"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.files.save",
+                    "args": []
+                }
+            ]
+        }
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ]
+}
